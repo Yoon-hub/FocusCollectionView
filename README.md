@@ -1,7 +1,24 @@
 ## FocusCollectionView
 
-![Swift](https://img.shields.io/badge/Swift-5.4-blue.svg)
+![Swift](https://img.shields.io/badge/Swift-5.4+-blue.svg) ![Xcode](https://img.shields.io/badge/Xcode-12.0+-green)
 [![Swift Package Manager compatible](https://img.shields.io/badge/SPM-compatible-4BC51D.svg?style=flat)](https://github.com/apple/swift-package-manager)
+
+
+## Usage
+
+You just need to make it FocusCollectionView instead of CollectionView.
+```swift
+let focusCollectionView = FocusCollectionView(frame: .zero, collectionViewLayout: flowLayout)
+```
+
+## Configure
+You can set up shadows, magnifications, etc.
+```swift
+focusCollectionView.isShadowEnabled = true
+focusCollectionView.focusScale = 1.1 
+// When using the focusScale function, be careful that the cell size does not exceed the CollectionView size.
+```
+
 
 
 ## Installation
