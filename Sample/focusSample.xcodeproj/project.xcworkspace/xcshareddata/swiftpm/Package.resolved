@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "focuscollectionview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Yoon-hub/FocusCollectionView.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "b8c69bbf8c5502de98f0e49e14f660739bc97921"
+      }
+    }
+  ],
+  "version" : 2
+}
