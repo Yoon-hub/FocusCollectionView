@@ -28,9 +28,11 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/yoon-hub/FocusCollectionView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
 
-  s.source_files = 'FocusCollectionView/Classes/**/*'
+  s.source_files = 'Sources/FocusCollectionView/**/*'
+
+  s.swift_version = ['5.4', '5.5', '5.6', '5.7', '5.8', '5.9', '5.10']
   
   # s.resource_bundles = {
   #   'FocusCollectionView' => ['FocusCollectionView/Assets/*.png']
