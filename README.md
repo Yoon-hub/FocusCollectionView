@@ -10,6 +10,7 @@ You just need to make it FocusCollectionView instead of CollectionView.
 ```swift
 let focusCollectionView = FocusCollectionView(frame: .zero, collectionViewLayout: flowLayout)
 ```
+<img src="https://github.com/Yoon-hub/fraud/assets/92036498/c321fb0f-a028-428e-869b-596ab80e3c87" width="200" />
 
 ## Configure
 You can set up shadows, magnifications, etc.
