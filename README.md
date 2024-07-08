@@ -20,6 +20,17 @@ focusCollectionView.focusScale = 1.1
 // When using the focusScale function, be careful that the cell size does not exceed the CollectionView size.
 ```
 
+## Delegate Method
+Since FocusCollectionView encapsulates the UICollectionViewDelegate, delegate methods should be accessed and utilized using the focusDelegate instance.
+```swift
+focusCollectionView.focusDelegate = self
+
+extension: FocusCollectionViewDelegate {
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        print(indexPath)
+    }
+}
+```
 
 
 ## Installation
