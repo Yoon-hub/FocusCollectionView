@@ -18,6 +18,9 @@ public class FocusCollectionView: UICollectionView {
         fatalError("init(coder:) has not been implemented")
     }
     
+    /// Delegate for the collection view.
+    public var focusDelegate: FocusCollectionViewDelegate?
+    
     /// Indicates whether shadow effect is enabled for the cells. Default is true.
     public var isShadowEnabled: Bool = true
     
