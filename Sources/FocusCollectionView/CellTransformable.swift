@@ -33,9 +33,6 @@ extension CellTransformable {
             UIView.animate(withDuration: 0.2) {
                 cell.transform = CGAffineTransform(scaleX: scale, y: scale)
             }
-            
-            let generator = UIImpactFeedbackGenerator(style: .light)
-            generator.impactOccurred()
         }
     
     /// Transforms the given cell to its original size with animation.
